@@ -16,7 +16,7 @@ git clone https://github.com/yourusername/your-repo.git
 pip install -r requirements.txt
 ```
 ## Usage
-# Run locally
+### Run locally
 1. Run the FastAPI server:
 ```bash
 uvicorn main:app --reload
@@ -24,7 +24,7 @@ uvicorn main:app --reload
 2. Access the API endpoints in your browser or use tools like
 cURL or Postman to interact with the API.
 
-# Running as a Docker Container
+### Running as a Docker Container
 1. Build the Docker image:
 ```bash
 docker build -t fastapi-data-service .
@@ -37,8 +37,8 @@ docker run -d -p 8000:80 fastapi-data-service
 
 ## API Endpoints
 
-GET /v1/api_status: Check the status of the API.
-GET /v1/countries: Retrieve all countries.
-GET /v1/countries/{country}: Retrieve data for a specific country.
-POST /records: Create new records.
-DELETE /v1/countries/{country}: Delete data for a specific country.
+GET /v1/api_status: Check the status of the API.  
+GET /v1/countries: Retrieve all countries.  
+GET /v1/countries/{country}: Retrieve data for a specific country.  
+POST /records: Create new records.  
+DELETE /v1/countries/{country}: Delete data for a specific country.  
