@@ -1,7 +1,24 @@
 # FastAPI Data Service
 
 The FastAPI Data Service is a RESTful API built using FastAPI with Python 3.7+.
-The purpose of FastAPI Data Service is designed to provide a RESTful API for handling data related to retail transactions. The API allows users to retrieve, create, and delete records of retail transactions, providing access to valuable data for analysis and application development.
+The purpose of FastAPI Data Service is to provide a RESTful API for handling data related to retail transactions. The API allows users to retrieve, create, and delete records of retail transactions, providing access to valuable data for analysis and application development.
+
+## File Structure
+```
+.    
+├── app  
+│   ├── __init__.py  
+│   ├── crud.py  
+│   ├── database.py  
+│   ├── main.py  
+│   ├── model.py  
+│   ├── schema.py  
+├── data  
+│   └── data.csv  
+├── Dockerfile  
+├── README.md  
+├── requirements.txt  
+```
 
 ## Installation
 
